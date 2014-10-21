@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <JZahedieh_ThemeFallbackTest>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <EcomDev_PHPUnit/>
+            </depends>
+        </JZahedieh_ThemeFallbackTest>
+    </modules>
+</config>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <JZahedieh_ThemeFallbackTest>
+            <version>0.1.0</version>
+        </JZahedieh_ThemeFallbackTest>
+    </modules>
+    <phpunit>
+        <suite>
+            <modules>
+                <JZahedieh_ThemeFallbackTest />
+            </modules>
+        </suite>
+    </phpunit>
+</config>
