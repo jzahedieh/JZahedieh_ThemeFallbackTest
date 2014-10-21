@@ -1,0 +1,12 @@
+{
+    "name": "jzahedieh/theme-fallback-test",
+    "type": "magento-module",
+    "authors": [
+        {
+            "name": "Jonathan Zahedieh"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
