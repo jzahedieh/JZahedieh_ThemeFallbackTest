@@ -1,0 +1,3 @@
+config:
+  default/design/package/name: "rwd"
+  default/design/theme/default: NULL

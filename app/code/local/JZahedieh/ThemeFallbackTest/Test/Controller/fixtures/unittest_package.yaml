@@ -1,0 +1,3 @@
+config:
+  default/design/package/name: "unittest"
+  default/design/theme/default: NULL
