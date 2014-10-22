@@ -14,6 +14,7 @@ class JZahedieh_ThemeFallbackTest_Test_Controller_Symlink extends EcomDev_PHPUni
         $this->assertRequestRoute('cms/index/index');
 
         $this->assertEquals('rwd', Mage::getStoreConfig('design/package/name'));
+        $this->assertEquals(0, Mage::getStoreConfig('dev/template/allow_symlink'));
 
         $this->_assertLayoutAndResponse();
     }
@@ -41,6 +42,7 @@ class JZahedieh_ThemeFallbackTest_Test_Controller_Symlink extends EcomDev_PHPUni
         $this->assertRequestRoute('cms/index/index');
 
         $this->assertEquals('unittest', Mage::getStoreConfig('design/package/name'));
+        $this->assertEquals(0, Mage::getStoreConfig('dev/template/allow_symlink'));
         $this->_assertLayoutAndResponse();
     }
 
@@ -56,8 +58,9 @@ class JZahedieh_ThemeFallbackTest_Test_Controller_Symlink extends EcomDev_PHPUni
         $this->assertRequestRoute('cms/index/index');
 
         $this->assertEquals('unittest', Mage::getStoreConfig('design/package/name'));
-        $this->_assertLayoutAndResponse();
+        $this->assertEquals(1, Mage::getStoreConfig('dev/template/allow_symlink'));
 
+        $this->_assertLayoutAndResponse();
     }
 
     /**
