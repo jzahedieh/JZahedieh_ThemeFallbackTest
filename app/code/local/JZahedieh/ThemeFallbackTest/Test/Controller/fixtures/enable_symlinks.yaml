@@ -1,0 +1,2 @@
+config:
+  default/dev/template/allow_symlink: 1
