@@ -1,4 +1,4 @@
 app/etc/modules/JZahedieh_ThemeFallbackTest.xml app/etc/modules/JZahedieh_ThemeFallbackTest.xml
 app/code/local/JZahedieh/ThemeFallbackTest/* app/code/local/JZahedieh/ThemeFallbackTest/
 app/design/frontend/unittest/default/etc/theme.xml app/design/frontend/unittest/default/etc/theme.xml
-app/design/frontend/unittest/default/template/page/1column.phtml app/design/frontend/unittest/default/template/page/1column.phtml
+app/design/frontend/unittest/default/template/page/* app/design/frontend/unittest/default/template/page/
