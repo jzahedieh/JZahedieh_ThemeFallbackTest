@@ -16,7 +16,7 @@ class JZahedieh_ThemeFallbackTest_Test_Controller_Symlink extends EcomDev_PHPUni
         $this->assertEquals('rwd', Mage::getStoreConfig('design/package/name'));
         $this->assertEquals(0, Mage::getStoreConfig('dev/template/allow_symlink'));
 
-        $this->_assertLayoutAndResponse();
+        $this->_assertHomepageLayoutAndResponse();
     }
 
     /**
@@ -43,7 +43,7 @@ class JZahedieh_ThemeFallbackTest_Test_Controller_Symlink extends EcomDev_PHPUni
 
         $this->assertEquals('unittest', Mage::getStoreConfig('design/package/name'));
         $this->assertEquals(0, Mage::getStoreConfig('dev/template/allow_symlink'));
-        $this->_assertLayoutAndResponse();
+        $this->_assertHomepageLayoutAndResponse();
     }
 
     /**
@@ -60,7 +60,7 @@ class JZahedieh_ThemeFallbackTest_Test_Controller_Symlink extends EcomDev_PHPUni
         $this->assertEquals('unittest', Mage::getStoreConfig('design/package/name'));
         $this->assertEquals(1, Mage::getStoreConfig('dev/template/allow_symlink'));
 
-        $this->_assertLayoutAndResponse();
+        $this->_assertHomepageLayoutAndResponse();
     }
 
     /**
@@ -68,7 +68,7 @@ class JZahedieh_ThemeFallbackTest_Test_Controller_Symlink extends EcomDev_PHPUni
      *
      * @see https://github.com/EcomDev/EcomDev_PHPUnit/issues/60
      */
-    protected function _assertLayoutAndResponse()
+    protected function _assertHomepageLayoutAndResponse()
     {
         $this->assertLayoutBlockCreated('left');
         $this->assertLayoutBlockCreated('right');
